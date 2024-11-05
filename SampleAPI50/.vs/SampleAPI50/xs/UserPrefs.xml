@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{82C2085A-4831-42E1-9CBE-22009A8E89AE}|Default">
+  <MonoDevelop.Ide.ItemProperties.SampleAPI50 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleAPI50/Properties/launchSettings.json">
+    <Files>
+      <File FileName="SampleAPI50/Program.cs" Line="16" Column="46" />
+      <File FileName="SampleAPI50/Startup.cs" Line="8" Column="25" />
+      <File FileName="SampleAPI50/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="SampleAPI50/Controllers/WeatherForecastController.cs" Line="18" Column="10" />
+      <File FileName="SampleAPI50/Properties/launchSettings.json" Line="25" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleAPI50" expanded="True">
+            <Node name="SampleAPI50" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

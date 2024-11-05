@@ -1,0 +1,7 @@
+﻿@SampleAPI80Controlers_HostAddress = http://localhost:5157
+
+GET {{SampleAPI80Controlers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

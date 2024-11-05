@@ -1,0 +1,7 @@
+﻿@SampleAPINoTopLevelStatements_HostAddress = http://localhost:5180
+
+GET {{SampleAPINoTopLevelStatements_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

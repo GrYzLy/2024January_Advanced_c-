@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{13292AC6-0DDF-44AD-A700-0C8929EFECDE}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/20241103143749_InitialCreate.cs">
+    <Files>
+      <File FileName="Models/Invoice.cs" Line="11" Column="37" />
+      <File FileName="Models/InvoiceStatus.cs" Line="5" Column="1" />
+      <File FileName="Program.cs" Line="12" Column="56" />
+      <File FileName="Data/InvoiceDbContext.cs" Line="22" Column="6" />
+      <File FileName="BasicEFCoreDemo.http" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="13" Column="1" />
+      <File FileName="Migrations/20241103143749_InitialCreate.cs" Line="27" Column="38" />
+      <File FileName="Migrations/InvoiceDbContextModelSnapshot.cs" Line="69" Column="2" />
+      <File FileName="Migrations/20241103153356_RemoveInvoices.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20241103153920_AddInvoiceData.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BasicEFCoreDemo" expanded="True">
+            <Node name="BasicEFCoreDemo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Dataa" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20241103143749_InitialCreate.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Modelss" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BasicEFCoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

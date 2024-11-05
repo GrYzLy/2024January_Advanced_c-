@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{343D49B9-CEB9-4F6E-9244-5CB61F687F16}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleAPI80Controlers/Program.cs">
+    <Files>
+      <File FileName="SampleAPI80Controlers/Program.cs" Line="21" Column="24" />
+      <File FileName="SampleAPI80Controlers/Controllers/WeatherForecastController.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleAPI80Controlers" expanded="True">
+            <Node name="SampleAPI80Controlers" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleAPI80Controlers PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
