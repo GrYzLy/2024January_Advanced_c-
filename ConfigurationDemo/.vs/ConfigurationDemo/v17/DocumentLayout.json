@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\configurationdemo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\configurationdemo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\configurationdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\configurationdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\databaseoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\databaseoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|c:\\dev\\2024january_advanced_c-\\configurationdemo\\configurationdemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9388AADD-803A-4F07-A0B6-3572751C4FC4}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigurationDemo",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\ConfigurationDemo.csproj",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\ConfigurationDemo.csproj",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\ConfigurationDemo.csproj",
+              "RelativeToolTip": "ConfigurationDemo\\ConfigurationDemo.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T19:02:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigurationDemo.csproj",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\ConfigurationDemo.csproj",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\ConfigurationDemo.csproj",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\ConfigurationDemo.csproj",
+              "RelativeToolTip": "ConfigurationDemo\\ConfigurationDemo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T14:51:24.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\Program.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Program.cs",
+              "RelativeToolTip": "ConfigurationDemo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:28:17.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseOption.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\DatabaseOption.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\DatabaseOption.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\DatabaseOption.cs",
+              "RelativeToolTip": "ConfigurationDemo\\DatabaseOption.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:21:09.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ConfigurationDemo\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T13:19:29.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigurationController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Controllers\\ConfigurationController.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\Controllers\\ConfigurationController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Controllers\\ConfigurationController.cs",
+              "RelativeToolTip": "ConfigurationDemo\\Controllers\\ConfigurationController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA8wBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:53:25.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ConfigurationDemo\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:52:25.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\appsettings.Development.json",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\appsettings.Development.json",
+              "RelativeToolTip": "ConfigurationDemo\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T12:50:10.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\appsettings.json",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\ConfigurationDemo\\ConfigurationDemo\\appsettings.json",
+              "RelativeToolTip": "ConfigurationDemo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T12:50:11.386Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

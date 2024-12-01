@@ -13,7 +13,7 @@ public class InvoiceDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
+        optionsBuilder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
     }
 
     public DbSet<Invoice> Invoices { get; set; }
