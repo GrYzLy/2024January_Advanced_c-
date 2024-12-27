@@ -1,70 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\",
+  "WorkspaceRootPath": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\data\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\migrations\\20241201150253_addinvoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20241201150253_addinvoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\migrations\\20221226043148_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20221226043148_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\data\\invoiceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\invoiceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\migrations\\20241201142039_newinvoicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20241201142039_newinvoicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\data\\invoicemodelcreatingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\invoicemodelcreatingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\migrations\\20221226050027_updateinvoicemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20221226050027_updateinvoicemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\basicefcoredemofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\basicefcoredemofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:basicefcoredemofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\controllers\\rawinvoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:controllers\\rawinvoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\migrations\\20221226043959_addseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\invoiceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\invoiceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\k6\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:k6\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20221226043959_addseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20221226043959_addseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20241214123027_addmovieandactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20241214123027_addmovieandactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\asp.netcore\\basicefcoredemofinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\actorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\actorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20221226043148_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20221226043148_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\addressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\addressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20241214112211_addcontactandaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20241214112211_addcontactandaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\models\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20241201150253_addinvoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20241201150253_addinvoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\invoicedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\invoicedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20221226050027_updateinvoicemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20221226050027_updateinvoicemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\migrations\\20241201142039_newinvoicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:migrations\\20241201142039_newinvoicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\data\\invoicemodelcreatingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:data\\invoicemodelcreatingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|c:\\dev\\2024january_advanced_c-\\basicefcoredemofinal\\controllers\\rawinvoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E4497-88E3-4D1D-BCEE-8C8E4C4EE7D8}|BasicEfCoreDemoFinal.csproj|solutionrelative:controllers\\rawinvoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1170,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,211 +138,365 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InvoiceDbContext.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Data\\InvoiceDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\InvoiceDbContext.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Data\\InvoiceDbContext.cs",
-              "RelativeToolTip": "Data\\InvoiceDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:39:38.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "Models\\Invoice.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Models\\Invoice.cs",
-              "RelativeToolTip": "Models\\Invoice.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:33:13.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InvoiceItem.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Models\\InvoiceItem.cs",
-              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Models\\InvoiceItem.cs",
-              "RelativeToolTip": "Models\\InvoiceItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:29:04.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InvoiceConfiguration.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Data\\InvoiceConfiguration.cs",
-              "RelativeDocumentMoniker": "Data\\InvoiceConfiguration.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Data\\InvoiceConfiguration.cs",
-              "RelativeToolTip": "Data\\InvoiceConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:39:45.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20221226043148_InitialDb.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20221226043148_InitialDb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20221226043148_InitialDb.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20221226043148_InitialDb.cs",
-              "RelativeToolTip": "Migrations\\20221226043148_InitialDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:33:42.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:39:21.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241201150253_AddInvoiceItem.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20241201150253_AddInvoiceItem.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241201150253_AddInvoiceItem.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20241201150253_AddInvoiceItem.cs",
-              "RelativeToolTip": "Migrations\\20241201150253_AddInvoiceItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:03:00.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InvoiceModelCreatingExtensions.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Data\\InvoiceModelCreatingExtensions.cs",
-              "RelativeDocumentMoniker": "Data\\InvoiceModelCreatingExtensions.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Data\\InvoiceModelCreatingExtensions.cs",
-              "RelativeToolTip": "Data\\InvoiceModelCreatingExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:39:52.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "InvoicesController.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Controllers\\InvoicesController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\InvoicesController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\InvoicesController.cs",
               "RelativeToolTip": "Controllers\\InvoicesController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwFkAAAA/AAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAiwJoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T12:40:37.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20241201142039_NewInvoiceData.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20241201142039_NewInvoiceData.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241201142039_NewInvoiceData.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20241201142039_NewInvoiceData.cs",
-              "RelativeToolTip": "Migrations\\20241201142039_NewInvoiceData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:48:56.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20221226050027_UpdateInvoiceMapping.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20221226050027_UpdateInvoiceMapping.cs",
-              "RelativeDocumentMoniker": "Migrations\\20221226050027_UpdateInvoiceMapping.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20221226050027_UpdateInvoiceMapping.cs",
-              "RelativeToolTip": "Migrations\\20221226050027_UpdateInvoiceMapping.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:52:42.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-01T09:33:34.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RawInvoicesController.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Controllers\\RawInvoicesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RawInvoicesController.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Controllers\\RawInvoicesController.cs",
-              "RelativeToolTip": "Controllers\\RawInvoicesController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwDMAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:23:41.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BasicEfCoreDemoFinal",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\BasicEfCoreDemoFinal.csproj",
-              "RelativeDocumentMoniker": "BasicEfCoreDemoFinal.csproj",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\BasicEfCoreDemoFinal.csproj",
-              "RelativeToolTip": "BasicEfCoreDemoFinal.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-01T09:56:16.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\appsettings.json",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAC0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-30T11:49:13.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20221226043959_AddSeedData.cs",
-              "DocumentMoniker": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20221226043959_AddSeedData.cs",
-              "RelativeDocumentMoniker": "Migrations\\20221226043959_AddSeedData.cs",
-              "ToolTip": "C:\\Dev\\ASP.NETCore\\BasicEfCoreDemoFinal\\Migrations\\20221226043959_AddSeedData.cs",
-              "RelativeToolTip": "Migrations\\20221226043959_AddSeedData.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAAAiAAAA",
+              "DocumentIndex": 2,
+              "Title": "BasicEfCoreDemoFinal.csproj",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\BasicEfCoreDemoFinal.csproj",
+              "RelativeDocumentMoniker": "BasicEfCoreDemoFinal.csproj",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\BasicEfCoreDemoFinal.csproj",
+              "RelativeToolTip": "BasicEfCoreDemoFinal.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T09:56:16.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:37:20.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T10:46:21.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:39:21.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvoiceDbContext.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\InvoiceDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\InvoiceDbContext.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\InvoiceDbContext.cs",
+              "RelativeToolTip": "Data\\InvoiceDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:39:38.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactConfiguration.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\ContactConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\ContactConfiguration.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\ContactConfiguration.cs",
+              "RelativeToolTip": "Data\\ContactConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:39:45.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvoiceConfiguration.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\InvoiceConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\InvoiceConfiguration.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\InvoiceConfiguration.cs",
+              "RelativeToolTip": "Data\\InvoiceConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:31:21.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\k6\\script.js",
+              "RelativeDocumentMoniker": "k6\\script.js",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\k6\\script.js",
+              "RelativeToolTip": "k6\\script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-14T13:24:55.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20221226043959_AddSeedData.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20221226043959_AddSeedData.cs",
+              "RelativeDocumentMoniker": "Migrations\\20221226043959_AddSeedData.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20221226043959_AddSeedData.cs",
+              "RelativeToolTip": "Migrations\\20221226043959_AddSeedData.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:37:20.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActorConfiguration.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\ActorConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\ActorConfiguration.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\ActorConfiguration.cs",
+              "RelativeToolTip": "Data\\ActorConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:27:37.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241214112211_AddContactAndAddress.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241214112211_AddContactAndAddress.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214112211_AddContactAndAddress.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241214112211_AddContactAndAddress.cs",
+              "RelativeToolTip": "Migrations\\20241214112211_AddContactAndAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:22:33.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "Models\\Actor.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Actor.cs",
+              "RelativeToolTip": "Models\\Actor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:10:38.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieConfiguration.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\MovieConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\MovieConfiguration.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\MovieConfiguration.cs",
+              "RelativeToolTip": "Data\\MovieConfiguration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:24:24.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241214123027_AddMovieAndActor.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241214123027_AddMovieAndActor.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214123027_AddMovieAndActor.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241214123027_AddMovieAndActor.cs",
+              "RelativeToolTip": "Migrations\\20241214123027_AddMovieAndActor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:30:29.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20221226043148_InitialDb.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20221226043148_InitialDb.cs",
+              "RelativeDocumentMoniker": "Migrations\\20221226043148_InitialDb.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20221226043148_InitialDb.cs",
+              "RelativeToolTip": "Migrations\\20221226043148_InitialDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:33:42.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Controllers\\MoviesController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:34:49.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActorsController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "Controllers\\ActorsController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:36:05.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MovieActor.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\MovieActor.cs",
+              "RelativeDocumentMoniker": "Models\\MovieActor.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\MovieActor.cs",
+              "RelativeToolTip": "Models\\MovieActor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:19:40.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:09:25.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddressConfiguration.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\AddressConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\AddressConfiguration.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\AddressConfiguration.cs",
+              "RelativeToolTip": "Data\\AddressConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:31:17.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20221226050027_UpdateInvoiceMapping.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20221226050027_UpdateInvoiceMapping.cs",
+              "RelativeDocumentMoniker": "Migrations\\20221226050027_UpdateInvoiceMapping.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20221226050027_UpdateInvoiceMapping.cs",
+              "RelativeToolTip": "Migrations\\20221226050027_UpdateInvoiceMapping.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:52:42.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241201150253_AddInvoiceItem.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241201150253_AddInvoiceItem.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241201150253_AddInvoiceItem.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241201150253_AddInvoiceItem.cs",
+              "RelativeToolTip": "Migrations\\20241201150253_AddInvoiceItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:03:00.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InvoiceDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\InvoiceDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\InvoiceDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\InvoiceDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\InvoiceDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAQwAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:21:35.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T09:51:29.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Models\\Address.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\Address.cs",
+              "RelativeToolTip": "Models\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T09:52:55.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241201142039_NewInvoiceData.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241201142039_NewInvoiceData.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241201142039_NewInvoiceData.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Migrations\\20241201142039_NewInvoiceData.cs",
+              "RelativeToolTip": "Migrations\\20241201142039_NewInvoiceData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:48:56.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "Models\\InvoiceItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:29:04.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InvoiceModelCreatingExtensions.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\InvoiceModelCreatingExtensions.cs",
+              "RelativeDocumentMoniker": "Data\\InvoiceModelCreatingExtensions.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Data\\InvoiceModelCreatingExtensions.cs",
+              "RelativeToolTip": "Data\\InvoiceModelCreatingExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:39:52.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RawInvoicesController.cs",
+              "DocumentMoniker": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\RawInvoicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RawInvoicesController.cs",
+              "ToolTip": "C:\\Dev\\2024January_Advanced_c-\\BasicEfCoreDemoFinal\\Controllers\\RawInvoicesController.cs",
+              "RelativeToolTip": "Controllers\\RawInvoicesController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:23:41.754Z"
             }
           ]
         },

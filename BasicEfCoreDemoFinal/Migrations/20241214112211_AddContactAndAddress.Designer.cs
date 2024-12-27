@@ -4,16 +4,19 @@ using BasicEfCoreDemo.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BasicEfCoreDemo.Migrations
+namespace BasicEfCoreDemoFinal.Migrations
 {
     [DbContext(typeof(InvoiceDbContext))]
-    partial class InvoiceDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241214112211_AddContactAndAddress")]
+    partial class AddContactAndAddress
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,26 +24,6 @@ namespace BasicEfCoreDemo.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("BasicEfCoreDemo.Models.Actor", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(32)
-                        .HasColumnType("nvarchar(32)")
-                        .HasColumnName("Name");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Name")
-                        .IsUnique();
-
-                    b.ToTable("Actors", (string)null);
-                });
 
             modelBuilder.Entity("BasicEfCoreDemo.Models.Address", b =>
                 {
@@ -158,7 +141,7 @@ namespace BasicEfCoreDemo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("fde72ef9-6da1-4b22-840f-0d9137bbb2bb"),
+                            Id = new Guid("09b1cbc9-631a-4fcb-aaed-1df35ca76752"),
                             Amount = 100m,
                             ContactName = "Iron Man",
                             Description = "Invoice for the first month",
@@ -169,7 +152,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c45f8b0e-b7a4-43ec-a722-e21474d3060b"),
+                            Id = new Guid("03c16f26-a919-4b3c-9bc0-77934dea08d1"),
                             Amount = 200m,
                             ContactName = "Captain America",
                             Description = "Invoice for the first month",
@@ -180,7 +163,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("5a648141-7182-4c16-94f8-f3e49d96dac2"),
+                            Id = new Guid("fdf142a5-d557-48ed-bfe2-66229f933a0f"),
                             Amount = 300m,
                             ContactName = "Thor",
                             Description = "Invoice for the first month",
@@ -191,7 +174,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("91c1053c-ba61-42a4-a234-b9f34b19e6d7"),
+                            Id = new Guid("74c4f72a-9085-4602-b271-28db734a0839"),
                             Amount = 300m,
                             ContactName = "Thor",
                             Description = "Invoice for the first month",
@@ -202,7 +185,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("97c42db2-1c2e-4bc5-89d0-8421c73c1b85"),
+                            Id = new Guid("00e0b67b-4c0a-4afb-a658-4dd39cc27721"),
                             Amount = 300m,
                             ContactName = "Thor",
                             Description = "Invoice for the first month",
@@ -213,7 +196,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1e092019-e7da-4908-8ed2-0a11c0befb90"),
+                            Id = new Guid("79319a4a-e043-4014-9e1e-75414c573a8d"),
                             Amount = 300m,
                             ContactName = "Thor",
                             Description = "Invoice for the first month",
@@ -224,7 +207,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6271c5ff-52a3-45dd-89a2-02ce30687b54"),
+                            Id = new Guid("1dd5c229-6fba-477e-b62b-6b95ca0d02e0"),
                             Amount = 300m,
                             ContactName = "Thor",
                             Description = "Invoice for the first month",
@@ -235,7 +218,7 @@ namespace BasicEfCoreDemo.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fb9258ec-62dc-4ce8-bbc9-e3d23d06965a"),
+                            Id = new Guid("fcf5d770-5670-4b0d-84a0-177250beea9a"),
                             Amount = 300m,
                             ContactName = "Thor",
                             Description = "Invoice for the first month",
@@ -244,55 +227,6 @@ namespace BasicEfCoreDemo.Migrations
                             InvoiceNumber = "INV-008",
                             Status = "Draft"
                         });
-                });
-
-            modelBuilder.Entity("BasicEfCoreDemo.Models.Movie", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Description")
-                        .HasMaxLength(512)
-                        .HasColumnType("nvarchar(512)")
-                        .HasColumnName("Description");
-
-                    b.Property<int>("ReleaseYear")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)")
-                        .HasColumnName("Title");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Title")
-                        .IsUnique();
-
-                    b.ToTable("Movies", (string)null);
-                });
-
-            modelBuilder.Entity("BasicEfCoreDemo.Models.MovieActor", b =>
-                {
-                    b.Property<Guid>("MovieId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("ActorId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("UpdateTime")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasColumnName("UpdateTime")
-                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
-
-                    b.HasKey("MovieId", "ActorId");
-
-                    b.HasIndex("ActorId");
-
-                    b.ToTable("MovieActor");
                 });
 
             modelBuilder.Entity("BasicEfCoreDemoFinal.Models.InvoiceItem", b =>
@@ -338,25 +272,6 @@ namespace BasicEfCoreDemo.Migrations
                     b.Navigation("Contact");
                 });
 
-            modelBuilder.Entity("BasicEfCoreDemo.Models.MovieActor", b =>
-                {
-                    b.HasOne("BasicEfCoreDemo.Models.Actor", "Actor")
-                        .WithMany("MovieActors")
-                        .HasForeignKey("ActorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BasicEfCoreDemo.Models.Movie", "Movie")
-                        .WithMany("MovieActors")
-                        .HasForeignKey("MovieId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Actor");
-
-                    b.Navigation("Movie");
-                });
-
             modelBuilder.Entity("BasicEfCoreDemoFinal.Models.InvoiceItem", b =>
                 {
                     b.HasOne("BasicEfCoreDemo.Models.Invoice", "Invoice")
@@ -368,11 +283,6 @@ namespace BasicEfCoreDemo.Migrations
                     b.Navigation("Invoice");
                 });
 
-            modelBuilder.Entity("BasicEfCoreDemo.Models.Actor", b =>
-                {
-                    b.Navigation("MovieActors");
-                });
-
             modelBuilder.Entity("BasicEfCoreDemo.Models.Contact", b =>
                 {
                     b.Navigation("Address")
@@ -382,11 +292,6 @@ namespace BasicEfCoreDemo.Migrations
             modelBuilder.Entity("BasicEfCoreDemo.Models.Invoice", b =>
                 {
                     b.Navigation("InvoiceItems");
-                });
-
-            modelBuilder.Entity("BasicEfCoreDemo.Models.Movie", b =>
-                {
-                    b.Navigation("MovieActors");
                 });
 #pragma warning restore 612, 618
         }

@@ -8,6 +8,13 @@ public class InvoiceDbContext(DbContextOptions<InvoiceDbContext> options) : DbCo
 {
     public DbSet<Invoice> Invoices => Set<Invoice>();
     public DbSet<InvoiceItem> InvoiceItems => Set<InvoiceItem>();
+
+    public DbSet<Contact> Contacts => Set<Contact>();
+    public DbSet<Address> Addresses => Set<Address>();
+
+    public DbSet<Actor> Actors => Set<Actor>();
+
+    public DbSet<Movie> Movies => Set<Movie>();
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Invoice>().HasData(
