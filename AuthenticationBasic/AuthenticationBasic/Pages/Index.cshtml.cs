@@ -17,9 +17,7 @@ namespace AuthenticationBasic.Pages
 
         public async void OnGet()
         {
-            //Authentication
-            //success
-
+            
             
         }
     }

@@ -33,6 +33,9 @@ namespace AuthenticationBasic.Pages.Account
 
         public async void OnGet()
         {
+            //Authentication
+            //success
+            //pobierz z bazay danych urzytkownika o id i hasle i sprawdz czy sie zgadza.
 
             var claims = new List<Claim>
             {
