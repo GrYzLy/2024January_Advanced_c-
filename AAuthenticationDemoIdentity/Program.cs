@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>();
 
 
-builder.Services.AddIdentityCore<AppUser>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.AddIdentityCore<AppUser>().AddRoles<IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -43,6 +43,15 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret))
 
     };
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireAdmninistratorRole", policy => policy.RequireRole(AppRoles.Administrator));
+    options.AddPolicy("RequireVipUserRole", policy => policy.RequireRole(AppRoles.VipUser));
+    options.AddPolicy("RequireUserRole", policy => policy.RequireRole(AppRoles.User));
+    options.AddPolicy("RequireUserRoleOrVipUserRole", policy => policy.RequireRole(AppRoles.User, AppRoles.VipUser));
+
 });
 
 
@@ -90,6 +99,29 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+using(var serviceScope = app.Services.CreateScope())
+{
+    var services = serviceScope.ServiceProvider;
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+
+    if(!await roleManager.RoleExistsAsync(AppRoles.User))
+    {
+        await roleManager.CreateAsync(new IdentityRole(AppRoles.User));
+    }
+
+    if (!await roleManager.RoleExistsAsync(AppRoles.VipUser))
+    {
+        await roleManager.CreateAsync(new IdentityRole(AppRoles.VipUser));
+    }
+
+    if (!await roleManager.RoleExistsAsync(AppRoles.Administrator))
+    {
+        await roleManager.CreateAsync(new IdentityRole(AppRoles.Administrator));
+    }
+
+}
+
 
 app.MapControllers();
 

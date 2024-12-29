@@ -36,11 +36,14 @@ namespace AAuthenticationDemoIdentity.Controllers
                 };
 
                 var result = await userManager.CreateAsync(user, model.Password);
+                var roleResult = await userManager.AddToRoleAsync(user, model.Role);
 
-                if (result.Succeeded)
+
+
+                if (result.Succeeded && roleResult.Succeeded)
                 {
 
-                    var token = GenerateToken(model.UserName);
+                    var token = GenerateToken(user, model.UserName);
                     return Ok(new { token });
                 }
 
@@ -64,7 +67,7 @@ namespace AAuthenticationDemoIdentity.Controllers
                 {
                     if (await userManager.CheckPasswordAsync(user, model.Password))
                     {
-                        var token = GenerateToken(model.UserName);
+                        var token = GenerateToken(user, model.UserName);
                         return Ok(new { token });
                     }
 
@@ -77,7 +80,7 @@ namespace AAuthenticationDemoIdentity.Controllers
             return BadRequest(ModelState);
         }
 
-            private string? GenerateToken(string userName)
+            private async Task<string?> GenerateToken(AppUser user, string userName)
         {
             var secret = configuration["JwtConfig:Secret"];
             var issuer = configuration["JwtConfig:ValidIssuer"];
@@ -92,13 +95,17 @@ namespace AAuthenticationDemoIdentity.Controllers
 
             var tokenHandler = new JwtSecurityTokenHandler();
 
+            var userRoles = await userManager.GetRolesAsync(user);
+
+            var claims = new List<Claim>
+            {
+                new(ClaimTypes.Name, userName)
+            };
+            claims.AddRange(userRoles.Select(role => new Claim(ClaimTypes.Role, role)));
+
             var tokenDescriptior = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-                new Claim(ClaimTypes.Name, userName)
-            }),
-
+                Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddDays(1),
                 Issuer = issuer,
                 Audience = audience,
