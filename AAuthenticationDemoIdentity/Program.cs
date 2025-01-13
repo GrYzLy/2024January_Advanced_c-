@@ -14,7 +14,9 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>();
 
 
-builder.Services.AddIdentityCore<AppUser>().AddRoles<IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+//builder.Services.AddIdentityCore<AppUser>().AddRoles<IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+builder.Services.AddIdentityApiEndpoints<AppUser>().AddRoles<IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -123,6 +125,9 @@ using(var serviceScope = app.Services.CreateScope())
 }
 
 
+
 app.MapControllers();
+
+app.MapGroup("/identity").MapIdentityApi<AppUser>();
 
 app.Run();
